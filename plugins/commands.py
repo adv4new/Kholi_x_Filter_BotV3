@@ -81,7 +81,7 @@ async def start(client, message):
                 btn.append([InlineKeyboardButton("ᴛʀʏ ᴀɢᴀɪɴ", url=f"https://t.me/{temp.U_NAME}/{message.command[1]}")])
         await client.send_message(
             chat_id=message.from_user.id,
-            text="**Please Join My Updates Channel to use this Bot!**",
+            text="**🗣 நீங்கள் கேட்கும் திரைப்படங்கள் கிடைக்க வேண்டுமானால் எங்கள் சேனலில் சேர வேண்டும்.🗣️சேர்வதற்கு --(📢 சேனலில் சேரவும் 📢)-- பொத்தானைக் கிளிக் செய்யலாம்.🗣 Ch இல் சேரவும்🗣 In Order To Get The Movie Requested By You in Our Group, You Must Have To Join Our Official Channel First By Clicking (📢 Join Channel 📢) Button🗣 After That, Click --(🔄 Try Again 🔄)-- Button And Start. I'll Send You That Movie File📂!**",
             reply_markup=InlineKeyboardMarkup(btn),
             parse_mode="markdown"
             )
